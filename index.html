@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Structure</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div class="overflow-wrap">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#skills">Skills</a>
+            <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="intro" class="flex">
+      <div class="flex">
+        <div class="text">Hello, I'm <span style="color: red;">Nathan Jensen</span>.<br>I'm a full-stack web developer!</div>
+        <div class="button"><a href="#about">View my work</a></div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container flex">
+        <div class="header">About</div>
+        <div class="header-bar"></div>
+        <div class="flex me-wrap">
+          <img src="img/me.jpeg" alt=Me height=180px width=180px>
+          <div class="label">Me</div>
+          <div>I'm a freelance web and Android developer in Provo, UT. I am passionate about developing data driven apps with elegant and easy to use interfaces. Let's make something special.</div>
+        </div>
+        <div class="flex row">
+          <div class="flex">
+            <div class="flex bullet-wrap">
+              <div class="box"><i class="material-icons">screen_rotation</i></div>
+              <div class="label">Responsive</div>
+              <div>My layouts will work on any device, big or small</div>
+            </div>
+            <div class="flex bullet-wrap">
+              <div class="box"><i class="material-icons">screen_rotation</i></div>
+              <div class="label">Responsive</div>
+              <div>My layouts will work on any device, big or small</div>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex bullet-wrap">
+              <div class="flex box"><i class="material-icons">schedule</i></div>
+              <div class="label">Fast</div>
+              <div>Fast load times and lag free interaction, my highest priority</div>
+            </div>
+            <div class="flex bullet-wrap">
+              <div class="flex box"><i class="material-icons">schedule</i></div>
+              <div class="label">Fast</div>
+              <div>Fast load times and lag free interaction, my highest priority</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container flex">
+        <div class="header">Skills</div>
+        <div class="header-bar"></div>
+          <div class="flex flex-50-gt-sm bars-wrap">
+            <div class="bar flex">
+              <div class="bar fill" style="width:75%">
+                <div class="tag bold flex">CSS</div>
+              </div>
+              <span>80%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:85%">
+                <div class="tag bold flex">HTML</div>
+              </div>
+              <span>90%</span>
+            </div>
+
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:65%">
+                <div class="tag bold flex">React</div>
+              </div>
+              <span>70%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:80%">
+                <div class="tag bold flex">JavaScript</div>
+              </div>
+              <span>80%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:65%">
+                <div class="tag bold flex">Angular</div>
+              </div>
+              <span>70%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:55%">
+                <div class="tag bold flex">Node.js</div>
+              </div>
+              <span>50%</span>
+            </div>
+
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:65%">
+                <div class="tag bold flex">Ruby/Rails</div>
+              </div>
+              <span>70%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:55%">
+                <div class="tag bold flex">UI Design</div>
+              </div>
+              <span>50%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:60%">
+                <div class="tag bold flex">Photoshop</div>
+              </div>
+              <span>60%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:45%">
+                <div class="tag bold flex">Illustrator</div>
+              </div>
+              <span>40%</span>
+            </div>
+
+            <div>
+              <ul class="bar-labels">
+                <li style="text-align:left">Newbie</li>
+                <li style="text-align:left;padding-left:5%;">Geek</li>
+                <li style="text-align:right; padding-right:5%;">Ninja</li>
+                <li style="text-align:right">Jedi</li>
+              </li>
+            </div>
+
+          </div>
+        </div>
+			</section>
+
+    <section id="portfolio">
+      <div class="container flex">
+        <div class="header">Portfolio</div>
+        <div class="header-bar"></div>
+        <div class="flex row col-12;" style="flex-wrap:wrap;">
+          <a href="https://github.com/najens/movie_trailer_website">
+            <div class="flex portfolio-container">
+              <div class="portfolio-img-box"><img src="img/movie_trailer.png" width=100% height=200px;></div>
+              <div class="portfolio-text">Movie Trailer Website<br><span class="portfolio-topic">Python/Web Desgin</span></div>
+            </div>
+          </a>
+          <a href="https://github.com/najens/NewsApp">
+            <div class="flex portfolio-container">
+              <div class="portfolio-img-box"><img src="img/news_app.png" width=100% height=200px;></div>
+              <div class="portfolio-text">News App with The Guardian's API<br><span class="portfolio-topic">Android/APIs</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <div class="row">
+      <!-- Content takes up 25% width -->
+      <div class="col-3 menu">
+        <ul>
+          <li>The Flight</li>
+          <li>The City</li>
+          <li>The Island</li>
+          <li>The Food</li>
+        </ul>
+      </div>
+      <!-- Content takes up remaining 75% width -->
+      <div class="col-9">
+        <h1>The City</h1>
+        <p>Chania is the capital of the chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+        <p>Resize the browser to see how the content responds to the browser resizing. This is a fun project. I cannot wait to be done with it so that I can begin the next one.</p>
+      </div>
+    </div>
+    <footer>
+      <div style="background: black; height:100px; padding:20px 0; width:100%;">
+        <div class="flex row sm-icon">
+          <a href="http://www.linkedin.com"><img src="img/linkedin_logo.png" alt="linkedin icon" width="30px" height="30px"></a>
+          <a href="http://www.github.com"><img src="img/github_logo.png" alt="github icon" width="30px" height="30px"></a>
+        </div>
+        <div class="flex" style="color:#eee; padding: 10px 0;">(c) Nathan Jensen</div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
+</html>
