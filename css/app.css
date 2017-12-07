@@ -96,6 +96,15 @@ a {
   height: 40px;
 }
 
+.logo {
+  top: 9.665px;
+  width: 52px;
+  height: 52px;
+  left: 15px;
+  right: auto;
+  position: fixed;
+}
+
 .nav-btn-container::after{
   clear: both;
   content: "";
