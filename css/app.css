@@ -40,6 +40,18 @@ a {
   overflow-x: hidden;
 }
 
+.flex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 /*** Header ***/
 .nav-bar {
   background-color: #263238;
@@ -75,7 +87,7 @@ a {
 .lang-list {
   list-style: none;
   margin: 12px 4px;
-  text-align: left;
+  align-items: left;
 }
 
 .lang-list a {
@@ -158,18 +170,6 @@ section .container {
   font-size: 2rem;
   line-height: 2.8rem;
   text-align: center;
-}
-
-.flex {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.row {
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 
