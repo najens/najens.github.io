@@ -63,7 +63,8 @@ a {
 
 .lang-container {
   background-color: #efefef;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   margin: 12.33px 15px 15px 15px;
   position: fixed;
   top: 0;
