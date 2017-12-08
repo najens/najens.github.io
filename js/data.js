@@ -14,10 +14,9 @@ var navEN = {
     section3: "Portfolio"
 }
 var homeEN = {
-    text1: "Hello, I\'m ",
-    text2: "Nathan Jensen",
-    text3: "I\'m a full-stack web developer!",
-    text4: "View my work"
+    text1: "Nathan Jensen",
+    text2: "Full-stack Web Developer",
+    text3: "View my work"
 }
 var aboutEN = {
     heading: "About",
@@ -82,10 +81,9 @@ var navES = {
     section3: "Portafolio"
 }
 var homeES = {
-    text1: "Hola, soy ",
-    text2: "Nathan Jensen",
-    text3: "¡Soy un desarrollador web completo!",
-    text4: "Mira mi trabajo"
+    text1: "Nathan Jensen",
+    text2: "Desarrollador Web Completo",
+    text3: "Mira mi trabajo"
 }
 var aboutES = {
     heading: "Sobre",
@@ -150,10 +148,9 @@ var navPT = {
     section3: "Portfólio"
 }
 var homePT = {
-    text1: "Olá, sou ",
-    text2: "Nathan Jensen",
-    text3: "Sou um desenvolvedor web completo!",
-    text4: "Confira meu trabalho"
+    text1: "Nathan Jensen",
+    text2: "Desenvolvedor Web Completo",
+    text3: "Confira meu trabalho"
 }
 var aboutPT = {
     heading: "Sobre",

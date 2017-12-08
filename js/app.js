@@ -14,9 +14,8 @@ var home = document.getElementById("home");
 var section1 = document.getElementById("section-1");
 var section2 = document.getElementById("section-2");
 var section3 = document.getElementById("section-3");
-var introGreeting = document.getElementById("intro-greeting");
-var introName = document.getElementById("intro-name");
-var introText = document.getElementById("intro-text");
+var introHeading = document.getElementById("intro-heading");
+var introSubheading = document.getElementById("intro-subheading");
 var introLink = document.getElementById("intro-link");
 var aboutHeading = document.getElementById("about-heading");
 var aboutImg1 = document.getElementById("about-img-1");
@@ -69,10 +68,9 @@ home.innerHTML = navEN.home;
 section1.innerHTML = navEN.section1;
 section2.innerHTML = navEN.section2;
 section3.innerHTML = navEN.section3;
-introGreeting.innerHTML = homeEN.text1;
-introName.innerHTML = homeEN.text2;
-introText.innerHTML = homeEN.text3;
-introLink.innerHTML = homeEN.text4;
+introHeading.innerHTML = homeEN.text1;
+introSubheading.innerHTML = homeEN.text2;
+introLink.innerHTML = homeEN.text3;
 aboutHeading.innerHTML = aboutEN.heading;
 // TODO: set alt text on image
 aboutSub1.innerHTML = aboutEN.subheading1;
@@ -124,10 +122,9 @@ en.addEventListener("click", function() {
     section1.innerHTML = navEN.section1;
     section2.innerHTML = navEN.section2;
     section3.innerHTML = navEN.section3;
-    introGreeting.innerHTML = homeEN.text1;
-    introName.innerHTML = homeEN.text2;
-    introText.innerHTML = homeEN.text3;
-    introLink.innerHTML = homeEN.text4;
+    introHeading.innerHTML = homeEN.text1;
+    introSubheading.innerHTML = homeEN.text2;
+    introLink.innerHTML = homeEN.text3;
     aboutHeading.innerHTML = aboutEN.heading;
     // TODO: set alt text on image
     aboutSub1.innerHTML = aboutEN.subheading1;
@@ -179,10 +176,9 @@ es.addEventListener("click", function() {
     section1.innerHTML = navES.section1;
     section2.innerHTML = navES.section2;
     section3.innerHTML = navES.section3;
-    introGreeting.innerHTML = homeES.text1;
-    introName.innerHTML = homeES.text2;
-    introText.innerHTML = homeES.text3;
-    introLink.innerHTML = homeES.text4;
+    introHeading.innerHTML = homeES.text1;
+    introSubheading.innerHTML = homeES.text2;
+    introLink.innerHTML = homeES.text3;
     aboutHeading.innerHTML = aboutES.heading;
     // TODO: set alt text on image
     aboutSub1.innerHTML = aboutES.subheading1;
@@ -234,10 +230,9 @@ pt.addEventListener("click", function() {
     section1.innerHTML = navPT.section1;
     section2.innerHTML = navPT.section2;
     section3.innerHTML = navPT.section3;
-    introGreeting.innerHTML = homePT.text1;
-    introName.innerHTML = homePT.text2;
-    introText.innerHTML = homePT.text3;
-    introLink.innerHTML = homePT.text4;
+    introName.innerHTML = homePT.text1;
+    introText.innerHTML = homePT.text2;
+    introLink.innerHTML = homePT.text3;
     aboutHeading.innerHTML = aboutPT.heading;
     // TODO: set alt text on image
     aboutSub1.innerHTML = aboutPT.subheading1;
