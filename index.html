@@ -1,208 +1,207 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="title">Nate Jensen | Developer Portfolio</title>
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/app.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title id="title">Nate Jensen | Developer Portfolio</title>
+    <link href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-
 <body>
-  <div class="overflow-wrap">
-
-    <header>
-      <nav class="nav-bar">
-        <div class="nav-container flex-row">
-          <img class="logo" src="img/logo.png" alt="Logo">
-          <button id="nav-btn" class="nav-button">
-            <i class="material-icons">menu</i>
-          </button>
-        </div>
-        <ul id="nav-lst" class="nav-list hidden">
-          <li><a id="home" class="flex-col" href="#">Home</a></li>
-          <li><a id="section-1" class="flex-col" href="#about">About</a></li>
-          <li><a id="section-2" class="flex-col" href="#skills">Skills</a></li>
-          <li><a id="section-3" class="flex-col" href="#portfolio">Portfolio</a></li>
-        </ul>
-        <div class="lang-container flex-col">
-          <button id="lang-btn" class="lang-collapse-btn flex-row">
-            <span id="lang-btn-txt">English</span>
-            <i class="material-icons">keyboard_arrow_down</i>
-          </button>
-          <ul id="lang" class="lang-list hidden">
-            <li><a id="en" class="flex-col" href="#">English</a></li>
-            <li><a id="es" class="flex-col" href="#">Spanish</a></li>
-            <li><a id="pt" class="flex-col" href="#">Portuguese</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-
-      <section id="intro" class="flex-col">
-        <div class="container">
-          <header>
-            <h1 id="intro-name">Nathan Jensen</h1>
-            <h2 id="intro-text">Full-stack Web Developer</h2>
-          </header>
-          <a id="intro-link" class="button" href="#about">View my work</a>
-        </div>
-      </section>
-
-      <section id="about">
-        <div class="container flex-col">
-          <header>
-            <h3 id="about-heading">About</h3>
-            <div class="header-bar"></div>
-          </header>
-          <div class="flex me-wrap">
-            <img id="about-img-1" src="img/me.jpeg" alt="Me">
-            <h4 id="about-sub-1" class="label">Me</h4>
-            <p id="about-text-1">I'm a freelance web and Android developer in Provo, UT. I am passionate about developing data driven apps with elegant and easy to use interfaces. Let's make something special.</p>
-          </div>
-          <div class="flex-row">
-            <div class="flex content-wrap">
-              <div class="box"><i class="material-icons">screen_rotation</i></div>
-              <h4 id="about-sub-2" class="label">Responsive</h4>
-              <p id="about-text-2">My layouts will work on any device, big or small</p>
-            </div>
-            <div class="flex content-wrap">
-              <div class="box"><i class="material-icons">screen_rotation</i></div>
-              <h4 id="about-sub-3" class="label">Fast</h4>
-              <p id="about-text-3">Fast load times and lag free interaction, my highest priority</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="skills">
-        <div class="container flex-col">
-          <header>
-            <h3 id="skills-heading">Skills</h3>
-            <div class="header-bar"></div>
-          </header>
-          <div class="bars-wrap">
-            <div class="bar flex-col">
-              <div class="bar fill width-40">
-                <p id="skill-1" class="tag bold flex-col">CSS</p>
-              </div>
-              <p id="percent-1">40%</p>
-            </div>
-            <div class="bar flex-col">
-              <div class="bar fill width-50">
-                <p id="skill-2" class="tag bold flex-col">HTML</p>
-              </div>
-              <p id="percent-2">50%</p>
-            </div>
-            <div class="bar flex-col">
-              <div class="bar fill width-20">
-                <p id="skill-3" class="tag bold flex-col">JavaScript</p>
-              </div>
-              <p id="percent-3">20%</p>
-            </div>
-            <div class="bar flex-col">
-              <div class="bar fill width-30">
-                <p id="skill-4" class="tag bold flex-col">Python</p>
-              </div>
-              <p id="percent-4">30%</p>
-            </div>
-            <div class="bar flex-col">
-              <div class="bar fill width-60">
-                <p id="skill-5" class="tag bold flex-col">Java</p>
-              </div>
-              <p id="percent-5">60%</p>
-            </div>
-            <div class="bar flex-col">
-              <div class="bar fill width-50">
-                <p id="skill-6" class="tag bold flex-col">Android</p>
-              </div>
-              <p id="percent-6">50%</p>
-            </div>
-            <div class="bar flex-col">
-              <div class="bar fill width-40">
-                <p id="skill-7" class="tag bold flex-col">UI</p>
-              </div>
-              <p id="percent-7">40%</p>
-            </div>
-            <div class="bar flex-col">
-              <div class="bar fill width-60">
-                <p id="skill-8" class="tag bold flex-col">GitL</p>
-              </div>
-              <p id="percent-8">60%</p>
-            </div>
-            <div class="bar flex-col">
-              <div class="bar fill width-60">
-                <p id="skill-9" class="tag bold flex-col">PostgreSQL</p>
-              </div>
-              <p id="percent-9">60%</p>
-            </div>
-            <div class="bar flex-col">
-              <div class="bar fill width-25">
-                <p id="skill-10" class="tag bold flex-col">AWS</p>
-              </div>
-              <p id="percent-10">25%</p>
-            </div>
-              <ul class="bar-labels flex-row">
-                <li id="skill-label-1">Newbie</li>
-                <li id="skill-label-2">Geek</li>
-                <li id="skill-label-3">Ninja</li>
-                <li id="skill-label-4">Jedi</li>
-              </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="portfolio">
-        <div class="container flex-col">
-          <header>
-            <h3 id="portfolio-heading">Portfolio</h3>
-            <div class="header-bar"></div>
-          </header>
-          <div class="flex-row">
-            <article>
-              <a href="https://github.com/najens/movie_trailer_website">
-                <div class="flex portfolio-container">
-                  <div class="portfolio-img-box"><img src="img/movie_trailer.png" alt="Movie Trailer Site"></div>
-                  <div class="portfolio-text">
-                    <h4 id="portfolio-project-1">Movie Trailer Website</h4>
-                    <p id="portfolio-topic-1" class="portfolio-topic">Python/Web Desgin</p>
-                  </div>
+    <div class="overflow-wrap">
+        <header>
+            <nav class="nav-bar">
+                <div class="nav-container flex-row">
+                    <img alt="Logo" class="logo" src="img/logo.png"> <button class="nav-button" id="nav-btn"><i class="material-icons">menu</i></button>
                 </div>
-              </a>
-            </article>
-            <article>
-              <a href="https://github.com/najens/NewsApp">
-                <div class="flex portfolio-container">
-                  <div class="portfolio-img-box"><img src="img/news_app.png" alt="News App"></div>
-                  <div class="portfolio-text">
-                    <h4 id="portfolio-project-2">News App with The Guardian's API</h4>
-                    <p id="portfolio-topic-2" class="portfolio-topic">Android/APIs</p>
-                  </div>
+                <ul class="nav-list hidden" id="nav-lst">
+                    <li>
+                        <a class="flex-col" href="#" id="home">Home</a>
+                    </li>
+                    <li>
+                        <a class="flex-col" href="#about" id="section-1">About</a>
+                    </li>
+                    <li>
+                        <a class="flex-col" href="#skills" id="section-2">Skills</a>
+                    </li>
+                    <li>
+                        <a class="flex-col" href="#portfolio" id="section-3">Portfolio</a>
+                    </li>
+                </ul>
+                <div class="lang-container flex-col">
+                    <button class="lang-collapse-btn flex-row" id="lang-btn"><span id="lang-btn-txt">English</span> <i class="material-icons">keyboard_arrow_down</i></button>
+                    <ul class="lang-list hidden" id="lang">
+                        <li>
+                            <a class="flex-col" href="#" id="en">English</a>
+                        </li>
+                        <li>
+                            <a class="flex-col" href="#" id="es">Spanish</a>
+                        </li>
+                        <li>
+                            <a class="flex-col" href="#" id="pt">Portuguese</a>
+                        </li>
+                    </ul>
                 </div>
-              </a>
-            </article>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="footer-container">
-        <div class="flex-row sm-icon">
-          <a class="flex-col" href="https://www.linkedin.com/in/nathan-jensen-050299a7"><img src="img/linkedin_logo.png" alt="linkedin icon"></a>
-          <a class="flex-col" href="https://github.com/najens"><img src="img/github_logo.png" alt="github icon"></a>
-        </div>
-        <p id="copyright" class="flex-col">(c) Nathan Jensen</p>
-      </div>
-    </footer>
-
-  </div>
-  <script src="js/data.js"></script>
-  <script src="js/app.js"></script>
-  </body>
-
+            </nav>
+        </header>
+        <main>
+            <section class="flex-col" id="intro">
+                <div class="container">
+                    <header>
+                        <h1 id="intro-name">Nathan Jensen</h1>
+                        <h2 id="intro-text">Full-stack Web Developer</h2>
+                    </header><a class="button" href="#about" id="intro-link">View my work</a>
+                </div>
+            </section>
+            <section id="about">
+                <div class="container flex-col">
+                    <header>
+                        <h3 id="about-heading">About</h3>
+                        <div class="header-bar"></div>
+                    </header>
+                    <div class="flex me-wrap">
+                        <img alt="Me" id="about-img-1" src="img/me.jpeg">
+                        <h4 class="label" id="about-sub-1">Me</h4>
+                        <p id="about-text-1">I'm a freelance web and Android developer in Provo, UT. I am passionate about developing data driven apps with elegant and easy to use interfaces. Let's make something special.</p>
+                    </div>
+                    <div class="flex-row">
+                        <div class="flex content-wrap">
+                            <div class="box">
+                                <i class="material-icons">screen_rotation</i>
+                            </div>
+                            <h4 class="label" id="about-sub-2">Responsive</h4>
+                            <p id="about-text-2">My layouts will work on any device, big or small</p>
+                        </div>
+                        <div class="flex content-wrap">
+                            <div class="box">
+                                <i class="material-icons">screen_rotation</i>
+                            </div>
+                            <h4 class="label" id="about-sub-3">Fast</h4>
+                            <p id="about-text-3">Fast load times and lag free interaction, my highest priority</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skills">
+                <div class="container flex-col">
+                    <header>
+                        <h3 id="skills-heading">Skills</h3>
+                        <div class="header-bar"></div>
+                    </header>
+                    <div class="bars-wrap">
+                        <div class="bar flex-col">
+                            <div class="bar fill width-40">
+                                <p class="tag bold flex-col" id="skill-1">CSS</p>
+                            </div>
+                            <p id="percent-1">40%</p>
+                        </div>
+                        <div class="bar flex-col">
+                            <div class="bar fill width-50">
+                                <p class="tag bold flex-col" id="skill-2">HTML</p>
+                            </div>
+                            <p id="percent-2">50%</p>
+                        </div>
+                        <div class="bar flex-col">
+                            <div class="bar fill width-20">
+                                <p class="tag bold flex-col" id="skill-3">JavaScript</p>
+                            </div>
+                            <p id="percent-3">20%</p>
+                        </div>
+                        <div class="bar flex-col">
+                            <div class="bar fill width-30">
+                                <p class="tag bold flex-col" id="skill-4">Python</p>
+                            </div>
+                            <p id="percent-4">30%</p>
+                        </div>
+                        <div class="bar flex-col">
+                            <div class="bar fill width-60">
+                                <p class="tag bold flex-col" id="skill-5">Java</p>
+                            </div>
+                            <p id="percent-5">60%</p>
+                        </div>
+                        <div class="bar flex-col">
+                            <div class="bar fill width-50">
+                                <p class="tag bold flex-col" id="skill-6">Android</p>
+                            </div>
+                            <p id="percent-6">50%</p>
+                        </div>
+                        <div class="bar flex-col">
+                            <div class="bar fill width-40">
+                                <p class="tag bold flex-col" id="skill-7">UI</p>
+                            </div>
+                            <p id="percent-7">40%</p>
+                        </div>
+                        <div class="bar flex-col">
+                            <div class="bar fill width-60">
+                                <p class="tag bold flex-col" id="skill-8">GitL</p>
+                            </div>
+                            <p id="percent-8">60%</p>
+                        </div>
+                        <div class="bar flex-col">
+                            <div class="bar fill width-60">
+                                <p class="tag bold flex-col" id="skill-9">PostgreSQL</p>
+                            </div>
+                            <p id="percent-9">60%</p>
+                        </div>
+                        <div class="bar flex-col">
+                            <div class="bar fill width-25">
+                                <p class="tag bold flex-col" id="skill-10">AWS</p>
+                            </div>
+                            <p id="percent-10">25%</p>
+                        </div>
+                        <ul class="bar-labels flex-row">
+                            <li id="skill-label-1">Newbie</li>
+                            <li id="skill-label-2">Geek</li>
+                            <li id="skill-label-3">Ninja</li>
+                            <li id="skill-label-4">Jedi</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <div class="container flex-col">
+                    <header>
+                        <h3 id="portfolio-heading">Portfolio</h3>
+                        <div class="header-bar"></div>
+                    </header>
+                    <div class="flex-row">
+                        <article>
+                            <a href="https://github.com/najens/movie_trailer_website">
+                            <div class="flex portfolio-container">
+                                <div class="portfolio-img-box"><img alt="Movie Trailer Site" src="img/movie_trailer.png"></div>
+                                <div class="portfolio-text">
+                                    <h4 id="portfolio-project-1">Movie Trailer Website</h4>
+                                    <p class="portfolio-topic" id="portfolio-topic-1">Python/Web Desgin</p>
+                                </div>
+                            </div></a>
+                        </article>
+                        <article>
+                            <a href="https://github.com/najens/NewsApp">
+                            <div class="flex portfolio-container">
+                                <div class="portfolio-img-box"><img alt="News App" src="img/news_app.png"></div>
+                                <div class="portfolio-text">
+                                    <h4 id="portfolio-project-2">News App with The Guardian's API</h4>
+                                    <p class="portfolio-topic" id="portfolio-topic-2">Android/APIs</p>
+                                </div>
+                            </div></a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="flex-row sm-icon">
+                    <a class="flex-col" href="https://www.linkedin.com/in/nathan-jensen-050299a7"><img alt="linkedin icon" src="img/linkedin_logo.png"></a> <a class="flex-col" href="https://github.com/najens"><img alt="github icon" src="img/github_logo.png"></a>
+                </div>
+                <p class="flex-col" id="copyright">(c) Nathan Jensen</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/data.js">
+    </script>
+    <script src="js/app.js">
+    </script>
+</body>
 </html>
