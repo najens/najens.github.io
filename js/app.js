@@ -298,9 +298,9 @@ for (var i=0; i<navListItems.length; i++) {
   });
 }
 
-// Display language list on click
+// Hide language list on load and display language list on click
 langBtn.addEventListener("click", function() {
-  lang.style.display = lang.style.display == "block" ? "none" : "block";
+  lang.classList = lang.classList == "lang-list" ? "lang-list, hidden" : "lang-list";
 })
 
 // Hide language list when lang list item is clicked

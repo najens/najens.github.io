@@ -80,7 +80,7 @@ a {
   width: 100%;
 }
 
-#lang {
+.hidden {
   display: none;
 }
 
