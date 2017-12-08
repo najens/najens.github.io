@@ -273,6 +273,30 @@ section:nth-of-type(2) img {
   top: 0;
 }
 
+.width-40 {
+  width: 40%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-20 {
+  width: 20%;
+}
+
+.width-30 {
+  width: 30%;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.width-25 {
+  width: 25%;
+}
+
 .tag {
   background: #07bfac;
   color: #fff;
