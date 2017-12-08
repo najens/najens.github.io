@@ -143,7 +143,7 @@ a {
 /*** Main ***/
 section {
   color: #616161;
-  line height: 1.4rem;
+  line-height: 1.4rem;
   padding: 6.0rem 0 4.0rem 0;
   position: relative;
 }
