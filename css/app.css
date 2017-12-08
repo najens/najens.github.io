@@ -185,21 +185,20 @@ section:nth-of-type(1) {
 }
 
 section:nth-of-type(1) h1 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   color: #b71c1c;
 }
 
 section:nth-of-type(1) h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .button {
   border: 2px solid #343a40;
-  cursor: pointer;
   display: inline-block;
   font-size: 1.2rem;
-  margin: 10px 0 50px;
-  padding: 1.0rem 1.3rem;
+  margin: 4rem 0 50px;
+  padding: 0.6rem 0.8rem;
   position: relative;
 }
 
