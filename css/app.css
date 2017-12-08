@@ -27,12 +27,18 @@ html {
 
 body {
   font-size: 1.2rem;
+  line-height: 1.4rem;
   overflow-x: hidden;
   text-align: center;
 }
 
 h1 {
+  font-size: 2.8rem;
+  color: #b71c1c;
+}
 
+h2 {
+  font-size: 1.6rem;
 }
 
 li {
@@ -146,7 +152,6 @@ a {
 /*** Main ***/
 section {
   color: #616161;
-  line-height: 1.4rem;
   padding: 6.0rem 0 4.0rem;
   position: relative;
 }
@@ -157,6 +162,11 @@ section .container {
   max-width: 120rem;
   padding: 0 1.6rem;
   width: 100%;
+}
+
+section h3 {
+  font-size: 2.6rem;
+  color: #444649;
 }
 
 .header {
@@ -170,7 +180,6 @@ section .container {
   background: #444649;
   height: 0.4rem;
   margin: 2.5rem 0 7.5rem;
-  width: 7.0rem;
 }
 
 
@@ -182,15 +191,6 @@ section:nth-of-type(1) {
   background-size: cover;
   height: calc(100vh + 53px);
   line-height: 1.2;
-}
-
-section:nth-of-type(1) h1 {
-  font-size: 2.8rem;
-  color: #b71c1c;
-}
-
-section:nth-of-type(1) h2 {
-  font-size: 1.6rem;
 }
 
 .button {
@@ -223,7 +223,7 @@ section:nth-of-type(2) img {
 }
 
 .label {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 500;
   margin: 2rem 0 1rem;
 }
