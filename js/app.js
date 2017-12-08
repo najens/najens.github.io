@@ -288,24 +288,24 @@ pt.addEventListener("click", function() {
 
 // Display nav list on click
 navButton.addEventListener("click", function() {
-  navList.style.display = navList.style.display == "flex" ? "none" : "flex";
+  navList.classList = navList.classList == "nav-list flex-col" ? "nav-list hidden" : "nav-list flex-col";
 });
 
 // Hide nav list when nav list item is clicked
 for (var i=0; i<navListItems.length; i++) {
   navListItems[i].addEventListener("click", function() {
-    navList.style.display = navList.style.display == "flex" ? "none" : "flex";
+    navList.classList = "nav-list hidden";
   });
 }
 
-// Hide language list on load and display language list on click
+// Display language list on click
 langBtn.addEventListener("click", function() {
-  lang.classList = lang.classList == "lang-list" ? "lang-list, hidden" : "lang-list";
+  lang.classList = lang.classList == "lang-list" ? "lang-list hidden" : "lang-list";
 })
 
 // Hide language list when lang list item is clicked
 for (var i=0; i<langItems.length; i++) {
   langItems[i].addEventListener("click", function() {
-    lang.style.display = lang.style.display == "block" ? "none" : "block";
+    lang.classList = "lang-list hidden";
   })
 }

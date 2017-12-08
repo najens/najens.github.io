@@ -44,15 +44,18 @@ a {
   overflow-x: hidden;
 }
 
-.flex {
+.flex-col {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.row {
+.flex-row {
+  align-items: center;
+  display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 /*** Header ***/
@@ -126,10 +129,6 @@ a {
 .nav-button i {
   color: #efefefb8;
   font-size: 28px;
-}
-
-#nav-lst {
-  display: none;
 }
 
 .nav-list {
