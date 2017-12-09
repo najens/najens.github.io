@@ -189,7 +189,7 @@ section:nth-of-type(2) img {
 .content-wrap {
     height: 25rem;
     justify-content: flex-end;
-    max-width: 20rem;
+    max-width: 22rem;
     padding: 0 0.7rem;
 }
 .box {
@@ -199,7 +199,7 @@ section:nth-of-type(2) img {
 }
 .box i {
     color: #fff;
-    font-size: 6.4rem;
+    font-size: 5.4rem;
 }
 /*** Skill ***/
 
@@ -278,8 +278,8 @@ section:nth-of-type(4) img {
     background: #fff;
     border-radius: 0.6rem;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-    margin: 1rem;
-    max-width: 20rem;
+    margin: 10px;
+    max-width: 22rem;
     width: 25rem;
 }
 .portfolio-container:hover {

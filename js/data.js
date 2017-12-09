@@ -124,7 +124,7 @@ var skillsES = {
 }
 var portfolioES = {
     heading: "Portafolio",
-    project1: "Sitio de Trailers de Películas",
+    project1: "Sitio de Trailers Películas",
     topic1: "Python/Web",
     project2: "Aplicación de Noticias",
     topic2: "Android/APIs"
@@ -160,7 +160,7 @@ var aboutPT = {
     subheading2: "Responsivo",
     text2: "Meus projetos funcionam bem em todos os tamanhos de tela",
     subheading3: "Rápido",
-    text3: "Os tempos de carregamento rápido são a minha maior prioridade"
+    text3: "O carregamento rápido é a minha maior prioridade"
 }
 var skillsPT = {
     heading: "Habilidades",

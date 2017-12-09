@@ -230,8 +230,8 @@ pt.addEventListener("click", function() {
     section1.innerHTML = navPT.section1;
     section2.innerHTML = navPT.section2;
     section3.innerHTML = navPT.section3;
-    introName.innerHTML = homePT.text1;
-    introText.innerHTML = homePT.text2;
+    introHeading.innerHTML = homePT.text1;
+    introSubheading.innerHTML = homePT.text2;
     introLink.innerHTML = homePT.text3;
     aboutHeading.innerHTML = aboutPT.heading;
     // TODO: set alt text on image
