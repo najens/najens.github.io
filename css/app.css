@@ -4,7 +4,8 @@ primary dark-grey: #263238;
 dark-grey: #444649;
 medium-grey: #616161;
 light-grey: #ecedf1;
-tealgreen: #00897b;
+red: #B71C1C;
+light-red: #D32F2F;
 
 */
 
@@ -28,7 +29,7 @@ body {
 }
 h1 {
     font-size: 2.8rem;
-    color: #b71c1c;
+    color: #B71C1C;
 }
 h2 {
     font-size: 1.6rem;
@@ -165,8 +166,8 @@ section:nth-of-type(1) {
     position: relative;
 }
 .button:hover {
-    background: #00897b;
-    border-color: #00897b;
+    background: #B71C1C;
+    border-color: #B71C1C;
     color: #fff;
 }
 /*** About ***/
@@ -193,7 +194,7 @@ section:nth-of-type(2) img {
     padding: 0 0.7rem;
 }
 .box {
-    background: #00897b;
+    background: #B71C1C;
     border-radius: 1.5rem;
     padding: 1rem;
 }
@@ -218,7 +219,7 @@ section:nth-of-type(2) img {
     position: relative;
 }
 .fill {
-    background: #00897b;
+    background: #B71C1C;
     left: 0;
     opacity: 1;
     padding: 0;
@@ -244,7 +245,7 @@ section:nth-of-type(2) img {
     width: 25%;
 }
 .tag {
-    background: #07bfac;
+    background: #D32F2F;
     color: #fff;
     height: 100%;
     left: 0;
