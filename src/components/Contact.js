@@ -23,14 +23,6 @@ class Contact extends Component {
         this.setState({formValues})
     }
 
-    handleSubmit(e) {
-        if(!this.state.formValues.name || !this.state.formValues.email || !this.state.formValues.message) {
-            alert('Missing Info!');
-        } else {
-            alert('Message Submitted!');
-        }
-    }
-
     render() {
         return (
             <section id="contact">
@@ -40,18 +32,18 @@ class Contact extends Component {
                         <div className="header-bar"></div>
                     </header>
                     <div className="flex-row full-width">
-                        <form action="https://mailthis.to/kanimambo" method="POST" encType="mulitpart/form-data" onSubmit={this.handleSubmit.bind(this)} className="full-width" id="contact-form">
+                        <form action="https://mailthis.to/kanimambo" method="POST" encType="mulitpart/form-data" className="full-width" id="contact-form">
                             <div className="form-group">
                                 <label htmlFor="input-name">Name</label>
-                                <input type="text" className="contact-input" id="input-name" placeholder="Name" name="name" value={this.state.formValues["name"]} onChange={this.handleChange.bind(this)}/>
+                                <input type="text" className="contact-input" id="input-name" placeholder="Name" name="name" value={this.state.formValues["name"]} onChange={this.handleChange.bind(this)} required/>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="input-email">Email</label>
-                                <input type="text" className="contact-input" id="input-email" placeholder="Email" name="email" value={this.state.formValues["email"]} onChange={this.handleChange.bind(this)}/>
+                                <input type="text" className="contact-input" id="input-email" placeholder="Email" name="email" value={this.state.formValues["email"]} onChange={this.handleChange.bind(this)} required/>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="input-message">Message</label>
-                                <textarea type="text" className="contact-input" id="input-message" rows="4" placeholder="Your message" name="message" value={this.state.formValues["message"]} onChange={this.handleChange.bind(this)}/>
+                                <textarea type="text" className="contact-input" id="input-message" rows="4" placeholder="Your message" name="message" value={this.state.formValues["message"]} onChange={this.handleChange.bind(this)} required/>
                             </div>
                             <input type="hidden" name="_subject" value="Portfolio Contact"/>
                             <input type="hidden" name="_honeypot" value=""/>
