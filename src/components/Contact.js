@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
 
 class Contact extends Component {
     constructor(props) {
@@ -28,22 +27,8 @@ class Contact extends Component {
         if(!this.state.formValues.name || !this.state.formValues.email || !this.state.formValues.message) {
             alert('Missing Info!');
         } else {
-            console.log(this.state.formValues);
-            $.ajax({
-                url: 'https://formspree.io/najens@gmail.com',
-                method: 'POST',
-                data: this.state.formValues,
-                dataType: 'json'
-            });
-            let formValues = this.state.formValues;
-            formValues['name'] = '';
-            formValues['email'] = '';
-            formValues['message'] = '';
-            this.setState({formValues});
-            alert('Message Sent!');
+            alert('Message Submitted!');
         }
-        e.preventDefault();
-        console.log(this.state.formValues);
     }
 
     render() {
@@ -55,7 +40,7 @@ class Contact extends Component {
                         <div className="header-bar"></div>
                     </header>
                     <div className="flex-row full-width">
-                        <form onSubmit={this.handleSubmit.bind(this)} className="full-width" id="contact-form">
+                        <form action="https://mailthis.to/kanimambo" method="POST" encType="mulitpart/form-data" onSubmit={this.handleSubmit.bind(this)} className="full-width" id="contact-form">
                             <div className="form-group">
                                 <label htmlFor="input-name">Name</label>
                                 <input type="text" className="contact-input" id="input-name" placeholder="Name" name="name" value={this.state.formValues["name"]} onChange={this.handleChange.bind(this)}/>
@@ -68,6 +53,8 @@ class Contact extends Component {
                                 <label htmlFor="input-message">Message</label>
                                 <textarea type="text" className="contact-input" id="input-message" rows="4" placeholder="Your message" name="message" value={this.state.formValues["message"]} onChange={this.handleChange.bind(this)}/>
                             </div>
+                            <input type="hidden" name="_subject" value="Portfolio Contact"/>
+                            <input type="hidden" name="_honeypot" value=""/>
                             <input type="submit" className="submit-btn" value="SEND"/>
                         </form>
                     </div>
