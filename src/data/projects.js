@@ -20,7 +20,8 @@ const projects = [
     {
         url: 'https://github.com/najens/my_reads',
         img: my_reads,
-        alt: 'My Reads App',
+        alt: 'My Reads',
+        title: 'My Reads App',
         description: 'React web application that allows a user to keep track of books that they have read, want to read, or are currently reading',
         topics: ['React', 'JavaScript']
     },
