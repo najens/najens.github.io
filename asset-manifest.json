@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.f6afd62f.css",
   "main.css.map": "static/css/main.f6afd62f.css.map",
-  "main.js": "static/js/main.e2f181cc.js",
-  "main.js.map": "static/js/main.e2f181cc.js.map",
+  "main.js": "static/js/main.5cfc1f51.js",
+  "main.js.map": "static/js/main.5cfc1f51.js.map",
   "static\\media\\aws_lightsail.jpg": "static/media/aws_lightsail.e0ddb081.jpg",
   "static\\media\\background.jpeg": "static/media/background.a99e4889.jpeg",
   "static\\media\\book_listing.jpg": "static/media/book_listing.56b865e4.jpg",
@@ -15,6 +15,7 @@
   "static\\media\\me.jpeg": "static/media/me.6f173aad.jpeg",
   "static\\media\\movie_trailer.png": "static/media/movie_trailer.502c4e92.png",
   "static\\media\\musical_structure.jpg": "static/media/musical_structure.b234dd0a.jpg",
+  "static\\media\\my_reads.jpg": "static/media/my_reads.d30b6033.jpg",
   "static\\media\\neighborhood_map.jpg": "static/media/neighborhood_map.e0e3f479.jpg",
   "static\\media\\news_analytics.jpg": "static/media/news_analytics.ac2d5ea5.jpg",
   "static\\media\\news_app.png": "static/media/news_app.88d5aa71.png",
