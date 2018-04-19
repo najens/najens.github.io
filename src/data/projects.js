@@ -14,8 +14,16 @@ import quiz_app from '../img/quiz_app.jpg';
 import football_counter from '../img/football_counter.jpg';
 import single_screen from '../img/single_screen.jpg';
 import habit_tracker from '../img/habit_tracker.jpg';
+import my_reads from '../img/my_reads.jpg';
 
 const projects = [
+    {
+        url: 'https://github.com/najens/my_reads',
+        img: my_reads,
+        alt: 'My Reads App',
+        description: 'React web application that allows a user to keep track of books that they have read, want to read, or are currently reading',
+        topics: ['React', 'JavaScript']
+    },
     {
         url: 'https://github.com/najens/item_catalog',
         img: item_catalog,
